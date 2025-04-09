@@ -64,6 +64,7 @@ a {
     width: 500px;
 }
 
+
 .middle .title {
     text-align: center;
     font-size: 48px;
@@ -72,8 +73,10 @@ a {
 
 .middle .container {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
     padding: 100px;
+    gap: 20px;
 }
 
 .items {
